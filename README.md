@@ -52,3 +52,13 @@ sns.countplot(x='cyl',data=mtcars, palette="tab10")
 # Output
 
 <img src="https://user-images.githubusercontent.com/87891857/211373742-44abe4ed-0c85-40d3-b379-83f9ccdb31c1.png" alt="Countplot" title="Optional title" width=50% height=50%>
+
+
+<h2>Horizontal count plot</h2>
+
+```
+fig = plt.figure(dpi=600)
+sns.countplot(y="carb", data=mtcars, palette="rocket")
+```
+
+# Output
