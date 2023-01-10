@@ -62,3 +62,5 @@ sns.countplot(y="carb", data=mtcars, palette="rocket")
 ```
 
 # Output
+
+<img src="https://user-images.githubusercontent.com/87891857/211446435-bc346414-146f-4117-8ac7-d16823ee5881.png" alt="Horizontal countplot" title="Optional title" width=50% height = 50%>
