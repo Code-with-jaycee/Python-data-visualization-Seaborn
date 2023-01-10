@@ -133,3 +133,17 @@ sns.pairplot(iris,hue="species", palette='Set1')
 
 # Output
 <img src="https://user-images.githubusercontent.com/87891857/211455462-9c411c25-61b4-48df-8953-53a0c4404995.png" alt="pairplot" title="Optional title" width=100% height=100%>
+
+# Lineplot
+
+One of the simplest types of charts is the lineplot (lmplot). A line is depicted on a flat, two-dimensional surface. You can choose between seaborn and matlotlib to generate plots.
+
+# Example
+
+```
+fig = plt.figure(dpi=600)
+sns.lmplot(x='petal_length', y='petal_width',hue='species', data=iris, markers=["o", "*", "^"])
+```
+
+# Output
+<img src="https://user-images.githubusercontent.com/87891857/211457005-ac634f6f-197f-4892-b55d-97637ec06929.png" alt="Lmplot" title="Optional title" >
