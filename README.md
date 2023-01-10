@@ -102,3 +102,34 @@ sns.heatmap(mtcars.corr(), cbar=True, linewidths=0.5)
 
 # Output
 <img src="https://user-images.githubusercontent.com/87891857/211450190-0d428825-ff2d-4c0a-984c-10cff83ea217.png" alt="Heatmap" title="Optional title" width=50% height = 50%>
+
+
+
+# Scatter plot
+
+Using a scatter plot, you can figure out how two numbers are related to each other. We can tell if there is a relationship between the variables based on where the data points, called markers, are placed.
+
+# Example
+
+```
+iris = sns.load_dataset('iris')
+fig = plt.figure(dpi=600)
+sns.scatterplot(x='sepal_length', y = 'petal_length', data=iris, hue="species")
+```
+
+# Output
+<img src="https://user-images.githubusercontent.com/87891857/211451848-d6281819-3694-493a-95a0-b8849e3ea63d.png" alt="Scatter plot" title="Optional title" width=50% height=50%>
+
+
+# Pairplot
+
+With the Seaborn Pairplot, we can show how two variables in a dataset are related to each other. This makes a nice way to see the data and helps us understand it by putting a lot of data into one figure. This is very important when we are looking at our dataset and trying to get to know it.
+
+# Example
+
+```
+sns.pairplot(iris,hue="species", palette='Set1')
+```
+
+# Output
+<img src="https://user-images.githubusercontent.com/87891857/211455462-9c411c25-61b4-48df-8953-53a0c4404995.png" alt="pairplot" title="Optional title" width=100% height=100%>
