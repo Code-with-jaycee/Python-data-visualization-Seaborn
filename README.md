@@ -70,3 +70,35 @@ Which column in the data frame will be utilized to store the color code is speci
 
 # Example
 <img src="https://user-images.githubusercontent.com/87891857/211447634-1a40399b-1cfa-457a-80ef-5708a00925be.png" alt="Cue countplot" title="Optional title" width=50% height=50%>
+
+
+# distplot
+
+A distribution plot, or Distplot, displays how the data is spread out. The Seaborn Distplot is a graphical representation of the frequency distribution of continuous data. The distplot with its many permutations is displayed using the Seaborn and Matplotlib libraries.
+
+# Example
+
+```
+fig = plt.figure(dpi=600)
+sns.distplot(mtcars.mpg, bins=10, color='g')
+```
+
+# Output
+<img src="https://user-images.githubusercontent.com/87891857/211448992-9a928bc9-4a7d-4eb8-8b10-42a0060dbce7.png" alt="dist plot" title="Optional title" width=50% height = 50%>
+
+
+# Heatmap
+
+A heatmap is a color-coded, two-dimensional representation of data in which each value in a matrix is shown separately. Annotated heatmaps can be made with the Seaborn package and then modified with Matplotlib's capabilities to suit the needs of the maker.
+
+# Example
+
+```
+# corr shows correlation of the data
+# cbar draws the color bar
+fig = plt.figure(dpi=600
+sns.heatmap(mtcars.corr(), cbar=True, linewidths=0.5)
+```
+
+# Output
+<img src="https://user-images.githubusercontent.com/87891857/211450190-0d428825-ff2d-4c0a-984c-10cff83ea217.png" alt="Heatmap" title="Optional title" width=50% height = 50%>
