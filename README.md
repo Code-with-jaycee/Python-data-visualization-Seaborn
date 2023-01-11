@@ -147,3 +147,6 @@ sns.lmplot(x='petal_length', y='petal_width',hue='species', data=iris, markers=[
 
 # Output
 <img src="https://user-images.githubusercontent.com/87891857/211457005-ac634f6f-197f-4892-b55d-97637ec06929.png" alt="Lmplot" title="Optional title" >
+
+
+# boxplot
