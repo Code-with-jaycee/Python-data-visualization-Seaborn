@@ -150,3 +150,16 @@ sns.lmplot(x='petal_length', y='petal_width',hue='species', data=iris, markers=[
 
 
 # boxplot
+
+boxplot. To visualize data distributions in relation to classes, use a box plot. Quantitative data can be compared across variables or categories with the help of a box plot (or box-and-whisker plot).
+
+# Example
+
+```
+plt.figure(dpi=600)
+sns.boxplot(x='species', y='sepal_width' , data=iris) 
+```
+
+# Output
+
+<img src="https://user-images.githubusercontent.com/87891857/211749724-e49d49c8-7f51-4b8d-b617-1e5045cbdcb5.png" alt="Boxplot" title = "Optional title" width=50% height=50%>
